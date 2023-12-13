@@ -33,7 +33,7 @@
 </head>
 
 <body>
-    <div class="container-xxl bg-white p-0">
+    <div class="container-xxl bg-white p-0" id="beranda">
         <!-- Spinner Start -->
         <div id="spinner"
             class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -66,11 +66,11 @@
                 <!-- End of Toggler -->
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="" class="nav-item nav-link active">Beranda</a>
-                        <a href="" class="nav-item nav-link">Tentang Kami</a>
+                        <a href="#beranda" class="nav-item nav-link active">Beranda</a>
+                        <a href="#tentang-kami" class="nav-item nav-link">Tentang Kami</a>
                         <a href="#best-seller" class="nav-item nav-link">Menu Best Seller</a>
                         <a href="#testimoni-pelanggan" class="nav-item nav-link">Testimoni Pelanggan</a>
-                        <a href="" class="nav-item nav-link">Kontak Kami</a>
+                        <a href="#kirim-saran" class="nav-item nav-link">Kirim Saran</a>
                     </div>
             </nav>
             <!-- End of Navbar -->
@@ -79,9 +79,9 @@
                 <div class="container my-5 py-5">
                     <div class="row align-items-center g-5">
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="display-3 text-white animated slideInLeft">Nikmati Makanan Kami yang Pas di
+                            <h1 class="display-3 text-white animated slideInLeft mb-4">Nikmati Makanan Kami yang Pas di
                                 dompet Pas di perut</h1>
-                            <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Lihat
+                            <a href="" class="btn btn-primary py-sm-3 px-sm-5 animated slideInLeft">Lihat
                                 selengkapnya...</a>
                         </div>
                         <div class="col-lg-6 text-center text-lg-end overflow-hidden">
@@ -97,8 +97,8 @@
         <!-- Service Start -->
         <div class="container-xxl py-5">
             <div class="container">
-                <div class="row g-4">
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row justify-content-center align-items-center g-4">
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
                                 <!-- <i class="fa fa-3x fa-user-tie text-primary mb-4"></i> -->
@@ -108,7 +108,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
                                 <!-- <i class="fa fa-3x fa-utensils text-primary mb-4"></i> -->
@@ -118,7 +118,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-money-bill-1-wave text-primary mb-4"></i>
@@ -127,7 +127,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
                                 <!-- <i class="fa fa-3x fa-headset text-primary mb-4"></i> -->
@@ -136,7 +136,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
                                 <!-- <i class="fa fa-3x fa-headset text-primary mb-4"></i> -->
@@ -152,7 +152,7 @@
 
 
         <!-- About Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl py-5" id="tentang-kami">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
@@ -179,8 +179,9 @@
                         <h5 class="section-title ff-secondary text-start text-primary fw-normal">Tentang Kami</h5>
                         <h1 class="mb-4">Selamat Datang <br>di Warung Bang Jack
                         </h1>
-                        <p class="mb-4">Berdiri sejak bulan Februari 2023 dan belum mempunyai cabang. Awal buka hanya
-                            mempunyai 3 karyawan, sekarang ada 5 karyawan.</p>
+                        <p class="mb-4">Berdiri sejak Februari 2023 dan belum memiliki cabang. Ketika pertama kali
+                            dibuka, hanya ada 3 karyawan, namun sekarang jumlahnya telah bertambah menjadi 5 karyawan.
+                        </p>
                         <!-- <div class="row g-4 mb-4">
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center border-start border-5 border-primary px-3">
@@ -220,10 +221,10 @@
                         <div id="tab-1" class="tab-pane fade show p-0 active">
                             <div class="row g-4">
                                 <div class="col-lg">
-                                    <div class="card">
+                                    <div class="card border-0 shadow">
                                         <div class="card-body pt-5">
-                                            <img class="card-img-top" src="assets/img/NasiPecelTelor.jpg"
-                                                alt="Nasi Pecel Telor"
+                                            <img class="card-img-top" src="assets/img/NasiPecelMadiunTelor.jpg"
+                                                alt="Nasi Pecel Madiun + Telor"
                                                 style="width: 200px; height: 200px; object-fit: cover; object-position: 50% 50%;">
                                             <div class="d-flex flex-column text-start">
                                                 <p class="mb-0 mt-2">Kategori: Main Course</p>
@@ -248,7 +249,7 @@
                                     </div> -->
                                 </div>
                                 <div class="col-lg">
-                                    <div class="card">
+                                    <div class="card border-0 shadow">
                                         <div class="card-body pt-5">
                                             <img class="card-img-top" src="assets/img/Seblak.jpg" alt="Seblak"
                                                 style="width: 200px; height: 200px; object-fit: cover; object-position: 50% 50%;">
@@ -257,7 +258,7 @@
                                                 <h5 class="m-0 text-primary">Seblak</h5>
                                                 <div class="d-inline-flex">
                                                     <p class="pe-1 mb-0">Harga:</p>
-                                                    <data class="price">Rp 20k</data>
+                                                    <data class="price">Rp 12k</data>
                                                 </div>
                                             </div>
                                         </div>
@@ -274,16 +275,16 @@
                                     </div> -->
                                 </div>
                                 <div class="col-lg">
-                                    <div class="card">
+                                    <div class="card border-0 shadow">
                                         <div class="card-body pt-5">
-                                            <img class="card-img-top" src="assets/img/NasiPecelTelor.jpg" alt="Title"
+                                            <img class="card-img-top" src="assets/img/RotiBakar.jpg" alt="Roti Bakar"
                                                 style="width: 200px; height: 200px; object-fit: cover; object-position: 50% 50%;">
                                             <div class="d-flex flex-column text-start">
-                                                <p class="mb-0 mt-2">Kategori: Main Course</p>
-                                                <h5 class="m-0 text-primary">Nasi Pecel Telor</h5>
+                                                <p class="mb-0 mt-2">Kategori: Dessert</p>
+                                                <h5 class="m-0 text-primary">Roti Bakar</h5>
                                                 <div class="d-inline-flex">
                                                     <p class="pe-1 mb-0">Harga:</p>
-                                                    <data class="price">Rp 20k</data>
+                                                    <data class="price">Rp 15k</data>
                                                 </div>
                                             </div>
                                         </div>
@@ -300,32 +301,33 @@
                                     </div> -->
                                 </div>
                                 <div class="col-lg">
-                                    <div class="card">
+                                    <div class="card border-0 shadow">
                                         <div class="card-body pt-5">
-                                            <img class="card-img-top" src="assets/img/NasiPecelTelor.jpg"
-                                                alt="Nasi Pecel Telor"
+                                            <img class="card-img-top" src="assets/img/NasiGoreng.jpg"
+                                                alt="Nasi Goreng Spesial"
                                                 style="width: 200px; height: 200px; object-fit: cover; object-position: 50% 50%;">
                                             <div class="d-flex flex-column text-start">
                                                 <p class="mb-0 mt-2">Kategori: Main Course</p>
-                                                <h5 class="m-0">Nasi Pecel Telor</h5>
+                                                <h5 class="m-0 text-primary">Nasi Goreng Spesial</h5>
                                                 <div class="d-inline-flex">
                                                     <p class="pe-1 mb-0">Harga:</p>
-                                                    <data class="price">Rp 20k</data>
+                                                    <data class="price">Rp 15k</data>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <!-- <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/img/PancongLumer.jpg"
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/img/RotiBakar.jpg"
                                             alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between pb-2">
-                                                <span>Pancong Lumer</span>
+                                                <span>Roti Bakar</span>
                                                 <span class="text-primary">$115</span>
                                             </h5>
                                         </div>
                                     </div> -->
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -390,15 +392,13 @@
         <!-- Testimonial End -->
 
         <!-- Reservation Start -->
-        <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-xxl py-5 px-0 wow fadeInUp" id="kirim-saran" data-wow-delay="0.1s">
             <div class="row g-0">
                 <div class="col-md-6">
-                    <div class="video">
-                        <!-- <button type="button" class="btn-play" data-bs-toggle="modal"
-                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
-                            <span></span>
-                        </button> -->
-                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7930.242917998107!2d106.789306!3d-6.3783189!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69efb32d246503%3A0x33d6750169dd670c!2sWarung%20Bang%20Jack!5e0!3m2!1sen!2sid!4v1702458628025!5m2!1sen!2sid"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <!-- <img src="assets/img/background.png" alt=""> -->
                 </div>
                 <div class="col-md-6 bg-dark d-flex align-items-center">
@@ -465,11 +465,11 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Jadwal Buka</h4>
                         <h5 class="text-light fw-normal">Selasa - Jum'at</h5>
-                        <p>11:00-22:00</p>
+                        <p>11:00 - 22:00</p>
                         <h5 class="text-light fw-normal">Sabtu - Minggu</h5>
-                        <p>11:00-23:00 </p>
+                        <p>11:00 - 23:00 </p>
                         <h5 class="text-light fw-normal">Senin</h5>
                         <p>Libur</p>
                     </div>
